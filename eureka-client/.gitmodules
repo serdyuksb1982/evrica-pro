@@ -1,0 +1,3 @@
+[submodule "eurekas"]
+	path = eurekas
+	url = https://github.com/serdyuksb1982/eurekas.git

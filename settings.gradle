@@ -1,0 +1,5 @@
+rootProject.name = 'evrica-pro'
+
+includeBuild 'eureka-server'
+includeBuild 'eureka-client'
+
