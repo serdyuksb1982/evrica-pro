@@ -1,4 +1,4 @@
-package ru.serdyuk.eurekaserver;
+package ru.serdyuk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
