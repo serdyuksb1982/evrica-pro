@@ -15,14 +15,14 @@ public class TestController {
     @Value("${eureka.instance.instance-id}")
     private String id;
 
-    @Value("${tmpVar}")
-    private int tmpVar;
+    /*@Value("${tmpVar}")
+    private int tmpVar;*/
 
 
     @GetMapping("/date")
     public String test() {
         //TODO .......
         LocalDate localDate = LocalDate.now();
-        return localDate + " id = " + id + " : " + tmpVar;
+        return localDate + " id = " + id /*+ " : " + tmpVar*/;
     }
 }
